@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* agar halaman di tengah vertikal */
+    margin: 0;
+}
+.header{
+    text-orientation: mixed; /* Untuk menyesuaikan orientasi teks jika diperlukan */
+    font-size: 24px; /* Ukuran font */
+    margin-left: 50px; /* Jarak dari sisi kiri */
+}
+.header-title{
+    margin-bottom: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-word {
+    margin-right: 10px;
+}
